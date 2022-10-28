@@ -1,0 +1,28 @@
+/* CSS style global reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Used colors */
+
+:root {
+  --red: #f8593b;
+  --black: #081f32;
+  --text-gray: #6e798c;
+  --info-gray: #a5adbb;
+  --green: #2ecc71;
+  --white: #ffffff;
+  --yellow: #ffc22b;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open sans", sans-serif;
+}
