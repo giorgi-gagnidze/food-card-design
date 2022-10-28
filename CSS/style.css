@@ -21,6 +21,7 @@ html {
   --white: #ffffff;
   --yellow: #ffc22b;
   --background-color: #f5f5f5;
+  --heading-font: "DM Serif Display";
 }
 
 body {
@@ -69,7 +70,7 @@ body {
 }
 
 .main-heading {
-  font-family: "DM Serif Display";
+  font-family: var(--heading-font);
   font-weight: 400;
   font-size: 24px;
   line-height: 25px;
@@ -135,7 +136,7 @@ body {
 }
 
 .price {
-  font-family: "DM Serif Display";
+  font-family: var(--heading-font);
   font-weight: 400;
   font-size: 28px;
   line-height: 25px;
@@ -144,7 +145,7 @@ body {
 }
 
 .sale {
-  font-family: "DM Serif Display";
+  font-family: var(--heading-font);
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
